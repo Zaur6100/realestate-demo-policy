@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Privacy policy for the Demo real estate WhatsApp integration prototype.">
+  <meta name="robots" content="noindex,follow">
+  <title>Privacy policy | Demo real estate</title>
+  <style>
+    :root{color-scheme:light;--ink:#17243b;--muted:#536078;--line:#dce3ed;--accent:#2058b2;--paper:#fff;--bg:#f4f7fb}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--accent);text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #f0b429;outline-offset:4px}
+    header,main,footer{width:min(880px,calc(100% - 40px));margin:auto}header{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;padding:32px 0 24px}
+    .brand{font-weight:750;letter-spacing:-.02em}.badge{font-size:12px;padding:4px 10px;border:1px solid #c4d7f7;border-radius:99px;background:#eaf1ff;color:#2058b2}
+    main{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:48px;box-shadow:0 8px 30px #1b355508}h1{font-size:clamp(30px,6vw,42px);line-height:1.15;letter-spacing:-.035em;margin:0 0 12px}h2{font-size:20px;line-height:1.35;letter-spacing:-.01em;margin:30px 0 10px}
+    p{margin:10px 0}.meta{color:var(--muted);font-size:14px}.lead{font-size:18px;color:var(--muted)}ul{padding-left:23px;margin:10px 0}li{margin:5px 0}.contact{padding:20px 24px;background:#f0f5fd;border:1px solid #d5e3f7;border-radius:12px;margin:24px 0}.contact p{margin:4px 0}
+    nav{display:flex;flex-wrap:wrap;gap:20px;font-size:14px}footer{padding:22px 0 36px;font-size:13px;color:var(--muted)}section+section{border-top:1px solid #edf0f5;margin-top:26px;padding-top:2px}
+    @media(max-width:600px){header,main,footer{width:calc(100% - 28px)}header{padding-top:22px}main{padding:28px 22px;border-radius:14px}.contact{padding:16px}}
+  </style>
+</head>
+<body>
+  <header><div class="brand">Demo real estate <span class="badge">Development demo</span></div><nav aria-label="Policy navigation"><a href="index.html" aria-current="page">Privacy</a><a href="deletion.html">Data deletion</a></nav></header>
+  <main>
+    <h1>Privacy policy</h1>
+    <p class="meta">Effective and last updated: 13 October 2026</p>
+    <p class="lead">How information is handled when you participate in the Demo real estate WhatsApp integration test.</p>
+    <section>
+      <h2>1. About this demo and its operator</h2>
+      <p>Demo real estate is an independent development prototype for testing WhatsApp message delivery and local automation. It is operated by the developer who maintains the GitHub account <strong>Zaur6100</strong>. The operator determines how information received by this demo is used.</p>
+      <p>This notice covers the current invited-tester setup using WhatsApp Business Cloud API, a locally hosted n8n workflow, and a Cloudflare tunnel. Test enquiries should use fictional property preferences and budgets.</p>
+      <div class="contact"><p><strong>Privacy contact</strong></p><p><a href="mailto:zaurnazhaev1@gmail.com">zaurnazhaev1@gmail.com</a></p><p class="meta">Use this address for questions, access requests, corrections, objections, or deletion requests.</p></div>
+    </section>
+    <section>
+      <h2>2. Information the demo receives</h2>
+      <ul>
+        <li>Your WhatsApp phone number or identifier and profile name, when included in the message event supplied by WhatsApp.</li>
+        <li>The messages you choose to send to the demo, including enquiry details you include in those messages.</li>
+        <li>Message identifiers, timestamps, message types, delivery-status events, and related technical information.</li>
+        <li>Information you send by email when making a privacy or support request.</li>
+      </ul>
+      <p>The operator can inspect received test messages and workflow execution records while testing or investigating a problem.</p>
+    </section>
+    <section>
+      <h2>3. Purpose and legal basis</h2>
+      <p>Information is used to receive and respond to requested test messages, verify the WhatsApp integration, troubleshoot workflow failures, and handle privacy requests.</p>
+      <p>Where GDPR applies, the operator relies on legitimate interests in operating and evaluating this limited demo for requested test conversations and technical troubleshooting, and on applicable legal obligations when handling privacy rights. You may object to processing by contacting the operator.</p>
+      <p>The current demo does not make decisions with legal or similarly significant effects about participants. Test conversations are not real property transactions.</p>
+    </section>
+    <section>
+      <h2>4. Storage and retention</h2>
+      <p>Received message data may be stored in the local n8n execution history on the developer's computer. With the current default n8n settings, completed executions are normally eligible for cleanup after approximately <strong>14 days</strong>; cleanup runs periodically rather than at an exact deletion time.</p>
+      <p>Incomplete executions, annotated records, and deliberately saved debugging samples may remain longer while a problem is investigated. The operator reviews these separately and deletes identifiable samples when the issue is resolved or the demo test ends. You may request earlier deletion.</p>
+      <p>Privacy-request correspondence is retained only as needed to handle the request and meet applicable recordkeeping obligations.</p>
+    </section>
+    <section>
+      <h2>5. Services involved</h2>
+      <ul>
+        <li><strong>WhatsApp / Meta:</strong> provides WhatsApp messaging and the Cloud API under its own applicable terms and privacy policies.</li>
+        <li><strong>Cloudflare:</strong> handles the public connection that delivers webhook traffic to the local demo.</li>
+        <li><strong>n8n:</strong> the workflow software runs locally. Its enabled diagnostic features may send software-usage and technical diagnostic information to n8n; ordinary workflow message payloads are not part of that telemetry.</li>
+        <li><strong>GitHub Pages:</strong> hosts this privacy website. GitHub records website visitors' IP addresses for security. WhatsApp conversation records are not published on this website.</li>
+      </ul>
+      <p>These providers may process information outside your country under their applicable privacy arrangements. Provider-held records are governed by the relevant provider's practices.</p>
+      <p>Provider information: <a href="https://www.whatsapp.com/legal/privacy-policy" rel="noopener noreferrer">WhatsApp privacy</a>, <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener noreferrer">Cloudflare privacy</a>, <a href="https://docs.n8n.io/privacy-and-security" rel="noopener noreferrer">n8n privacy</a>, and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">GitHub privacy</a>.</p>
+    </section>
+    <section>
+      <h2>6. Your choices and rights</h2>
+      <p>You may stop participating in the test at any time. Email <a href="mailto:zaurnazhaev1@gmail.com">zaurnazhaev1@gmail.com</a> to request access, correction, deletion, restriction, or portability where applicable, or to object to processing. The operator may ask for limited information to verify that a request concerns your own data.</p>
+      <p>Privacy requests will receive a response within one month. If an extension is permitted and needed, the operator will explain it within that first month. You may also complain to your local data-protection authority; in Denmark, this is <a href="https://www.datatilsynet.dk/english" rel="noopener noreferrer">Datatilsynet</a>.</p>
+      <p>For a deletion request, follow the <a href="deletion.html">data deletion instructions</a>.</p>
+    </section>
+    <section>
+      <h2>7. Changes to the demo</h2>
+      <p>This notice will be updated if the demo's data handling changes, including when external AI processing, CRM storage, booking tools, or real-client workflows are introduced. The updated date will appear at the top of this page.</p>
+    </section>
+  </main>
+  <footer>Demo real estate · <a href="mailto:zaurnazhaev1@gmail.com">Privacy contact</a> · <a href="deletion.html">Data deletion</a></footer>
+</body>
+</html>
